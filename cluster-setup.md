@@ -25,6 +25,7 @@ sudo chmod 755 MicroK8s-master-setup.sh
 sudo git clone https://github.com/asrikanth29/k8s
 cd k8s
 sudo chmod 755 MicroK8s-worker-setup.sh
+./MicroK8s-worker-setup.sh
 ```
 - after done with installation run one of the joining command which are noted earlier, remember, those joining commands are useful for one time
 ---
