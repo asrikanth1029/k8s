@@ -1,7 +1,10 @@
 ## Requirements
 - Running 3 VMs with ubuntu 18+ including git (preferably under same subnet, allow port 22)
 - preferd minimum configuration for master: 2vcpu , 1GB memory, 20GB disk
-- clone git repo https://github.com/asrikanth29/k8s
+- clone following repo
+```
+git clone https://github.com/asrikanth29/k8s
+```
 ---
 ## step 1: setuping master node
 - login to master run following script
