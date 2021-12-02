@@ -10,7 +10,7 @@ cd k8s
 sudo chmod 755 MicroK8s-master-setup.sh
 ./MicroK8s-master-setup.sh
 ```
--after done with installation , to add 2 nodes to this cluster ,two joining links are created above note down the above join links like microk8s join ip:port/xxxxxx you neet is in later step
+-after done with installation , to add 2 nodes to this cluster ,find two joining links are created above note down the above join commands like `microk8s join ip:port/xxxxxx` you need is in later step
 ## step 2: adding worker node to the master
 
 - login to workernodes and run following script
