@@ -3,13 +3,13 @@
 - preferd minimum configuration for master: 2vcpu , 1GB memory, 20GB disk
 - clone following repo
 ```
-sudo git clone https://github.com/asrikanth29/k8s && cd k8s && chmod 755 master.sh worker.sh
+sudo git clone https://github.com/asrikanth29/k8s
 ```
 ---
 ## step 1: setuping master node
 - login to master run following script
 ```
-./k8s/master.sh
+chmod 755 ./k8s/master.sh && ./k8s/master.sh
 ```
 -after done with installation , to add 2 nodes to this cluster ,find two joining links are created above note down the above join commands like `microk8s join ip:port/xxxxxx` you need is in later step
 ## step 2: adding worker node to the master
