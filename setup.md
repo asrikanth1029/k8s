@@ -4,8 +4,7 @@ sudo git clone https://github.com/asrikanth29/k8s && chmod 755 ./k8s/master.sh &
 ```
 - login to workernodes and run following script
 ```
-sudo git clone https://github.com/asrikanth29/k8s
-chmod 755 ./k8s/worker.sh && ./k8s/worker.sh
+sudo git clone https://github.com/asrikanth29/k8s && chmod 755 ./k8s/worker.sh && ./k8s/worker.sh
 ```
 -verify your cluster, run following script on master
 ```
