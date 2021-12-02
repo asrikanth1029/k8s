@@ -8,8 +8,8 @@ sudo microk8s status --wait-ready
 echo "Enabling admin privileges to microk8s"
 sudo usermod -a -G microk8s $USER
 sudo chown -f -R $USER ~/.kube
-echo "Enabling enable dashboard, dns, registry, istio services"
-sudo microk8s enable dashboard dns registry istio
+echo "Enabling enable dashboard, dns, registry, services"
+sudo microk8s enable dashboard dns registry
 echo "take look about out cluster"
 sudo microk8s kubectl get nodes
 echo "let us add nodes to this cluster"
