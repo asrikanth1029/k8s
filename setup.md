@@ -16,7 +16,7 @@ chmod 755 ./k8s/master.sh && ./k8s/master.sh
 
 - login to workernodes and run following script
 ```
-./k8s/worker.sh
+chmod 755 ./k8s/master.sh && ./k8s/worker.sh
 ```
 - after done with installation run one of the joining command which are noted earlier, remember, those joining commands are useful for one time
 ---
