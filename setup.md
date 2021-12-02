@@ -3,7 +3,7 @@
 - preferd minimum configuration for master: 2vcpu , 1GB memory, 20GB disk
 - clone following repo
 ```
-git clone https://github.com/asrikanth29/k8s
+sudo git clone https://github.com/asrikanth29/k8s
 ```
 ---
 ## step 1: setuping master node
