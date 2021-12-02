@@ -1,7 +1,6 @@
 - login to master node run following script
 ```
-sudo git clone https://github.com/asrikanth29/k8s
-chmod 755 ./k8s/master.sh && ./k8s/master.sh
+sudo git clone https://github.com/asrikanth29/k8s && chmod 755 ./k8s/master.sh && ./k8s/master.sh
 ```
 - login to workernodes and run following script
 ```
