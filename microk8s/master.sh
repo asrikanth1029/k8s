@@ -1,5 +1,4 @@
 cd ./k8s
-sudo chmod 755 MicroK8s-master-setup.sh
 echo "watch the screen carefully for any errors"
 echo "Installing MicroK8s with kubernetes version 1.20"
 sudo snap install microk8s --classic --channel=1.20/stable
