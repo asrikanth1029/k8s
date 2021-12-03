@@ -1,5 +1,4 @@
-## **Prerequisites :** Two ubuntu servers 
-
+### **Prerequisites :** Two ubuntu servers 
 ## **Setup k3s cluster**
 - Install k3s using below command on host vm and follow instructions on screen
 ```
