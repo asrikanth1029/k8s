@@ -6,7 +6,7 @@ sudo git clone https://github.com/asrikanth29/k8s && chmod 755 ./k8s/master.sh &
 ```
 sudo git clone https://github.com/asrikanth29/k8s && chmod 755 ./k8s/worker.sh && ./k8s/worker.sh
 ```
--verify your cluster, run following script on master
+- verify your cluster, run following script on master
 ```
 microk8s kubectl get nodes
 ```
