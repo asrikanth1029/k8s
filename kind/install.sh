@@ -7,7 +7,7 @@ curl -LO https://dl.k8s.io/release/v1.20.0/bin/linux/amd64/kubectl       #Downlo
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl    #install kubectl     
 sudo apt-get update                                                    
 sudo apt-get install docker.io                                         #install docker
-sudo kind create cluster --config kind-config.yaml                     #create 3node(1-Master,2-Node) Cluster using kind-config.yaml file
+sudo kind create cluster --config config.yaml                     #create 3node(1-Master,2-Node) Cluster using kind-config.yaml file
 sudo kind get nodes                                                    #to see the list of nodes
 sudo docker ps -a                                                      #to see the list of docker container nodes
 sudo kubectl get nodes
